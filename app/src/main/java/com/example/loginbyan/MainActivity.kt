@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
                 // Email to MainActivity
                 val intent = Intent(this, MainActivity2::class.java)
-                intent.putExtra("USER_EMAIL", email) // Mengirim email
+                intent.putExtra("USER_EMAIL", email) // Mengirim emaill
                 startActivity(intent)
 
             } else {
