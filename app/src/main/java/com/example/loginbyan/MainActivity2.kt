@@ -14,7 +14,6 @@ class MainActivity2 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main2)
 
-        // val
         val uEmail = intent.getStringExtra("USER_EMAIL")
         val UserEmail = findViewById<TextView>(R.id.UserEmail)
 

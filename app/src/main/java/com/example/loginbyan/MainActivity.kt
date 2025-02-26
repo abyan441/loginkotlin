@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             val email = etEmail.text.toString()
 
             if (email.isNotEmpty()) {
-                Log.d("MainActivity", "Email yang dimasukkan: $email") // Menampilkan email di Logcatt
+                Log.d("MainActivity", "Email yang dimasukkan: $email") // Menampilkan email di Logcat
                 Toast.makeText(this, "Email: $email", Toast.LENGTH_SHORT).show() // Menampilkan email dalam layar
 
                 // Email to MainActivity
